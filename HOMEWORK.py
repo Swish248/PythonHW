@@ -97,9 +97,9 @@ my_dog.sit()
 class SARDog(Dog):
  """Represent a search dog."""
  def __init__(self, name):
- super().__init__(name)
+    super().__init__(name)
  def search(self):
- print(self.name + " is searching.")
+    print(self.name + " is searching.")
 my_dog = SARDog('Willie')
 print(my_dog.name + " is a search dog.")
 my_dog.sit()
@@ -122,9 +122,10 @@ for line in lines:
 filename = 'journal.txt'
 with open(filename, 'w') as file_object:
  file_object.write("I love programming.")
-filename = 'journal.txt'
+ filename = 'journal.txt'
 with open(filename, 'w') as file_object:
- file_object.write("I love programming.")filename = 'journal.txt'
+ file_object.write("I love programming.")
+ filename = 'journal.txt'
 with open(filename, 'w') as file_object:
  file_object.write("I love programming.")
 
