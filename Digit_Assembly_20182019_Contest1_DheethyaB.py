@@ -45,3 +45,5 @@ if (length % 2) == 0:
 else:
     midpos = length // 2 + 1
     print(str(d[midpos - 1]))
+
+#print("GITHUB IS STUPID AND SO AM I")
